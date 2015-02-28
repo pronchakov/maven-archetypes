@@ -27,12 +27,14 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="runnable-jar" />
+        <module name="simple-jar" />
         <module name="webapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="maven-archetypes" target="1.7" />
       <module name="runnable-jar" target="1.7" />
+      <module name="simple-jar" target="1.7" />
       <module name="webapp" target="1.7" />
     </bytecodeTargetLevel>
   </component>
