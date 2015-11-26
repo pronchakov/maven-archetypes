@@ -5,6 +5,8 @@
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/runnable-jar/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/webapp/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/simple-jar/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/fuse-blueprint/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
@@ -26,12 +28,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="fuse-blueprint" />
         <module name="runnable-jar" />
         <module name="simple-jar" />
         <module name="webapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="fuse-blueprint" target="1.7" />
       <module name="maven-archetypes" target="1.7" />
       <module name="runnable-jar" target="1.7" />
       <module name="simple-jar" target="1.7" />

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/fuse-blueprint/fuse-blueprint.iml" filepath="$PROJECT_DIR$/fuse-blueprint/fuse-blueprint.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-archetypes.iml" filepath="$PROJECT_DIR$/maven-archetypes.iml" />
       <module fileurl="file://$PROJECT_DIR$/runnable-jar/runnable-jar.iml" filepath="$PROJECT_DIR$/runnable-jar/runnable-jar.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-jar/simple-jar.iml" filepath="$PROJECT_DIR$/simple-jar/simple-jar.iml" />
