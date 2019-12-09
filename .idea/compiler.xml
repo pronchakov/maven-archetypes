@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="Javac" />
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/runnable-jar/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/webapp/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/simple-jar/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/spring-app/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/spring-web-app/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
-    <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="!?*.java" />
       <entry name="!?*.form" />
@@ -18,24 +19,24 @@
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
         <module name="runnable-jar" />
         <module name="simple-jar" />
+        <module name="spring-web-app" />
         <module name="webapp" />
+        <module name="spring-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="maven-archetypes" target="1.7" />
-      <module name="runnable-jar" target="1.7" />
-      <module name="simple-jar" target="1.7" />
-      <module name="webapp" target="1.7" />
+      <module name="maven-archetypes" target="13" />
+      <module name="runnable-jar" target="13" />
+      <module name="simple-jar" target="13" />
+      <module name="spring-app" target="13" />
+      <module name="spring-web-app" target="13" />
+      <module name="webapp" target="13" />
     </bytecodeTargetLevel>
   </component>
 </project>

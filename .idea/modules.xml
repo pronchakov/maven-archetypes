@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/maven-archetypes.iml" filepath="$PROJECT_DIR$/maven-archetypes.iml" />
       <module fileurl="file://$PROJECT_DIR$/runnable-jar/runnable-jar.iml" filepath="$PROJECT_DIR$/runnable-jar/runnable-jar.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-jar/simple-jar.iml" filepath="$PROJECT_DIR$/simple-jar/simple-jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-app/spring-app.iml" filepath="$PROJECT_DIR$/spring-app/spring-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-web-app/spring-web-app.iml" filepath="$PROJECT_DIR$/spring-web-app/spring-web-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/webapp/webapp.iml" filepath="$PROJECT_DIR$/webapp/webapp.iml" />
     </modules>
   </component>
